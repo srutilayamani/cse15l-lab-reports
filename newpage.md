@@ -54,10 +54,7 @@ One
 Two
 Three
 Horizontal rule:
-
----	Horizontal rule:
-
-***	Horizontal rule:
+---
 `Inline code` with backticks	 	Inline code with backticks
 ```
 # code block
