@@ -1,6 +1,6 @@
 # Lab Report 1
 ## Installing VS Code:
-In order to install VS Code on a Mac, you need to go to the website https://code.visualstudio.com/ and follow the instructions to download VS code. You will have to scroll down and click the download button, then follow the prompted instructions. Because I already had VS Code downloaded on my Mac, I did not need to complete this step.
+In order to install VS Code on a Mac, you need to go to the website [Link](https://code.visualstudio.com/) and follow the instructions to download VS code. You will have to scroll down and click the download button, then follow the prompted instructions. Because I already had VS Code downloaded on my Mac, I did not need to complete this step.
 ![Image](downloadvscode.png)
 
 
