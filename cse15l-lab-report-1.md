@@ -22,6 +22,6 @@ Now that you have logged in, you can try some commands. These include `cd`, `ls`
 * You can use the `clear` command to clear the terminal of all commands that were entered. This will also remove the fact that you entered clear, so be aware of that.
 ![Image](trycommands.png)
 * The `rm` command removes a file. You need to enter rm and then the name of the file that you want to remove next to it. Nothing will output from it. 
-![Image](trycommands.png)
+![Image](Screen Shot 2023-04-24 at 3.39.26 PM.png)
 * In order to open a specific file, you need to use the `open` command. Type open and then the file you want to open and the file will open in the directory.
 ![Image](Screen Shot 2023-04-24 at 3.56.03 PM.png) 
