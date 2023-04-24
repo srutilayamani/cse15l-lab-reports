@@ -16,12 +16,12 @@ Initially, this did not work for me, but it was eventually fixed and I was able 
 ## Trying Some Commands:
 Now that you have logged in, you can try some commands. These include `cd`, `ls`, `pwd`, `mkdir`, and `cp`. You can test these commands out and any other commands in the terminal to see the ouput. Here are some examples of commands:
 * You can use the `touch` command to create a new file. In your terminal, simply type a file name next to the touch commmand to create a new file with your desired file name. See the example below:
-![Image](trycommands.png)
+![Image](touch.png)
 * You can use the `ls -a` command to show all of the hidden files. This will leave See the example below:
-![Image](trycommands.png)
+![Image](lsa.png)
 * You can use the `clear` command to clear the terminal of all commands that were entered. This will also remove the fact that you entered clear, so be aware of that.
-![Image](trycommands.png)
+![Image](clear.png)
 * The `rm` command removes a file. You need to enter rm and then the name of the file that you want to remove next to it. Nothing will output from it. 
-![Image](Screen Shot 2023-04-24 at 3.39.26 PM.png)
+![Image](remove.png)
 * In order to open a specific file, you need to use the `open` command. Type open and then the file you want to open and the file will open in the directory.
-![Image](Screen Shot 2023-04-24 at 3.56.03 PM.png) 
+![Image](open.png)
