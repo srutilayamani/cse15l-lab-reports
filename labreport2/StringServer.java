@@ -8,24 +8,18 @@ class Handler implements URLHandler {
     int num = 0;
     ArrayList<String> arr = new ArrayList<String>();
     public String handleRequest(URI url) {
-      
-        if (url.getPath().equals("/add-message")) {
-            return String.format("Sruti's number: %d", num);
-        } else {
-            System.out.println("Path: " + url.getPath());
-            if (url.getPath().contains("/add-message")) {
-                String[] parameters = url.getQuery().split("=");
-                if (parameters[0].equals("s")) {
-                    arr.add(parameters[1]);
-                    display = "";
-                    for(String s : display){
-                      display += s + "/n"
-                    }
-                    return display;
+        if (url.getPath().contains("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                arr.add(parameters[1]);
+                display = "";
+                for(String s : display){
+                    display += s + "/n"
                 }
+                return display;
             }
-            return "Message not added! Please add a message to the end of the URL";
         }
+        return "Message not added! Please add a message to the end of the URL";
     }
 }
 
