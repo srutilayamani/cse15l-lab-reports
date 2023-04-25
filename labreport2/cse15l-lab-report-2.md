@@ -1,11 +1,11 @@
 # Lab Report 2
 ## Part 1
 Based off of lab 2, I created a similar web server but instead one that takes strings into the URL rather than numbers. You would need to append `/add-message?s=<string>` at the end of the http://localhost: URL. 
-![Image](downloadvscode.png)
+![Image](code.png)
 In order to create this, I had to change up the previous code to have the input be strings and append to an array list that was then displayed. You will need to compile the code in order for it to be displayed in the local host. Then you can go to the local host URL and test this out by appending different strings. The new phrases will be added below the old ones. 
-![Image](downloadvscode.png)
+![Image](first.png)
 As you can see, in the above image, I added "Hello" as my message and it appended it to the array list that already existed. This is why all of my previous appended phrases are also shown as it is saved. When this is typed in the URL, the handleRequest method is used. This method takes the URL and checks to see if the /add-message is added to the URL. If it is, then it will analyze the message part of it and add it to the page then create a new line after. If the /add-message was not found, then a "Message not found" message will display.
-![Image](downloadvscode.png)
+![Image](second.png)
 Next, I added a new message "How are you" which was next displayed on the screen right after as well as my previous message "Hello". The handleRequest method is called again and it runs through the same if else statements. The new message is added in this case below the "Hello" message. The previous message is saved onto the page. 
 
 
@@ -29,13 +29,13 @@ public void testReversed() {
 ```
 
 The symptom is the fact that the code does not even compile when you run it. As you can see below, the code itself produces 6 errors.
-![Image](touch.png)
+![Image](symptom.png)
 
 The original code is as follows:
 ```
   static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
-    for(int i = 0; i < arr.length; i += 1) {
+    for(int i = 0; i < arr.length; i += 1) {ymptom
       arr[i] = newArray[arr.length - i - 1];
     }
     return arr;
