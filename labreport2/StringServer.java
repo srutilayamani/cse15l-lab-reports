@@ -2,6 +2,8 @@ import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
+
+    
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
@@ -12,9 +14,9 @@ class Handler implements URLHandler {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
                 arr.add(parameters[1]);
-                display = "";
-                for(String s : display){
-                    display += s + "/n"
+                String display = "";
+                for(String s : arr){
+                    display += s + "/n";
                 }
                 return display;
             }
@@ -23,7 +25,7 @@ class Handler implements URLHandler {
     }
 }
 
-class NumberServer {
+class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
             System.out.println("Missing port number! Try any number between 1024 to 49151");
