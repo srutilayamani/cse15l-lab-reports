@@ -16,7 +16,7 @@ class Handler implements URLHandler {
                 arr.add(parameters[1]);
                 String display = "";
                 for(String s : arr){
-                    display += s + "/n";
+                    display += s + "\n";
                 }
                 return display;
             }
