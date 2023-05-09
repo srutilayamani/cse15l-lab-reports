@@ -29,7 +29,7 @@ public void testReversed() {
 ```
 
 The symptom is the fact that the code does not even compile when you run it. As you can see below, the code itself produces 6 errors.
-![Image](symptom.png)
+![Image](symptoms.png)
 
 The original code is as follows:
 ```
