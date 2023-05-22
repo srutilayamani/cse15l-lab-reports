@@ -6,10 +6,10 @@ In order to log into ieng6, I typed the command `ssh cs15lsp23og@ieng6.ucsd.edu`
 
 ## Step 2
 Next, you need to clone the forked repository that is now in your GitHub account. Open up the fork repository in your search engine. Click on code and you should see a link. Click the button with the two overlapping squares to copy the link. You should see a checkmark to confirm that the link has been copies. Your screen should look like this:
-![Image](http://url/a.png)
+![Image](copylink.png)
 
 Navigate back to your terminal and type `git clone` followed by the link you just copied. Press `<return>` to clone the repository. Your terminal should look something like this:
-![Image](http://url/a.png)
+![Image](clone.png)
 
 ## Step 3
 Now, we need to run the JUnit tests in order to see the failures present. In order to do this, we need to set the current directory to lab7 that we just cloned. First, type in the `ls` command and `<return>` to see the directories available. If lab7 is present, that means that the file was cloned correctly. Once you see lab7, type in `cd lab7` then `<return>` to set the current directory to lab7. Type in the `ls` command again and press `<return>` to verify that lab7 is our current directly and see all the files in lab7. Your terminal should look something like this:
