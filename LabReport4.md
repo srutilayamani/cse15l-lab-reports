@@ -2,7 +2,7 @@
 
 ## Step 1
 In order to log into ieng6, I typed the command `ssh cs15lsp23og@ieng6.ucsd.edu` then `<return>` and it prompted me to type in my password. Once I typed in my password and pressed `<return>`, I was logged into ieng6.
-![Image](http://url/a.png)
+![Image](Screen Shot 2023-05-21 at 4.40.19 PM.png)
 
 ## Step 2
 Next, you need to clone the forked repository that is now in your GitHub account. Open up the fork repository in your search engine. Click on code and you should see a link. Click the button with the two overlapping squares to copy the link. You should see a checkmark to confirm that the link has been copies. Your screen should look like this:
