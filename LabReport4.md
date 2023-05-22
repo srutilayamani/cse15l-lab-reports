@@ -13,7 +13,7 @@ Navigate back to your terminal and type `git clone` followed by the link you jus
 
 ## Step 3
 Now, we need to run the JUnit tests in order to see the failures present. In order to do this, we need to set the current directory to lab7 that we just cloned. First, type in the `ls` command and `<return>` to see the directories available. If lab7 is present, that means that the file was cloned correctly. Once you see lab7, type in `cd lab7` then `<return>` to set the current directory to lab7. Type in the `ls` command again and press `<return>` to verify that lab7 is our current directly and see all the files in lab7. Your terminal should look something like this:
-![Image](http://url/a.png)
+![Image](copylink.png)
   
 Once we are in the right directory, we need to run the JUnit tests. First run the command `javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java` and press `<return>`. Nothing should return from this command. Then to run the tests, type in the command `java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests` and press `<return>`. The tests should run and you should see that two tests were run and that there was one failure. The terminal should look something like this:
 ![Image](http://url/a.png)
