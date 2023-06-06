@@ -4,11 +4,7 @@
 * The following image is a post made by a student in CSE15L that is having an issue running JUnit tests command-line;
 ![Image](studentissue.png)
 
-* To this particular error, a TA should help the student with the following response:
-```
-Are you sure you are in the right folder in the terminal? Try to use the `cd` command to into the correct folder that the java file is in to run the test.
-```
-This specific response is good because it not only asks a leading question, but also gives a hint to what command the student should use without entirely giving the answer away. This response also helps the student because it also explains why the student's command is not working and what would fix it.
+* To this particular error, a TA should help the student with the following response: Are you sure you are in the right folder in the terminal? Try to use the `cd` command to into the correct folder that the java file is in to run the test. This specific response is good because it not only asks a leading question, but also gives a hint to what command the student should use without entirely giving the answer away. This response also helps the student because it also explains why the student's command is not working and what would fix it.
 
 * The student uses the hint given by the TA then fixes the issue:
 ![Image](studentfix.png)
