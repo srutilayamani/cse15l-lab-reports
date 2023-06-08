@@ -31,5 +31,6 @@ Now, we need to re-run the JUnit tests to see that the tests now succeed. First 
 ## Step 6
 Now that all of the changes have been made and that the tests passed, you need to commit and push the changes back into your GitHub account. First type the command `git add ListExamples.java` then press `<return>`. 
 ![Image](addcorrect.png)
+
 Next, type `git commit -m "Errors in tests fixed."` then `<return>` to commit the changes. Finally to push the changes back to your account by typing `git push`. 
 ![Image](pushcorrect.png)
