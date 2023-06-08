@@ -9,7 +9,7 @@ Next, you need to clone the forked repository that is now in your GitHub account
 ![Image](copylink.png)
 
 Navigate back to your terminal and type `git clone` followed by the link you just copied. Press `<return>` to clone the repository. Your terminal should look something like this:
-![Image](clone.png)
+![Image](clonecorrect.png)
 
 ## Step 3
 Now, we need to run the JUnit tests in order to see the failures present. In order to do this, we need to set the current directory to lab7 that we just cloned. First, type in the `ls` command and `<return>` to see the directories available. If lab7 is present, that means that the file was cloned correctly. Once you see lab7, type in `cd lab7` then `<return>` to set the current directory to lab7. Type in the `ls` command again and press `<return>` to verify that lab7 is our current directly and see all the files in lab7.
@@ -29,5 +29,7 @@ Now, we need to re-run the JUnit tests to see that the tests now succeed. First 
 ![Image](secondtest.png)
 
 ## Step 6
-Now that all of the changes have been made and that the tests passed, you need to commit and push the changes back into your GitHub account. First type the command `git add ListExamples.java` then press `<return>`. Next, type `git commit -m "Errors in tests fixed."` then `<return>` to commit the changes. Finally to push the changes back to your account by typing `git push`. 
-![Image](push.png)
+Now that all of the changes have been made and that the tests passed, you need to commit and push the changes back into your GitHub account. First type the command `git add ListExamples.java` then press `<return>`. 
+![Image](addcorrect.png)
+Next, type `git commit -m "Errors in tests fixed."` then `<return>` to commit the changes. Finally to push the changes back to your account by typing `git push`. 
+![Image](pushcorrect.png)
